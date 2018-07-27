@@ -1,0 +1,31 @@
+body{
+    background:orange;
+}
+/*.task
+{
+    width:auto;
+    height:55%;
+    color: transparent;
+    background:linear-gradient(lawngreen,white);
+    border-radius:5px;
+}*/
+ul{
+    position:fixed;
+}
+li{
+    list-style-type:  none;
+    float: left;
+    
+}
+a{
+    padding:10px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: yellow;
+   
+}
+.divisions{
+    height:100vh;
+    padding-top:20vh;
+}
