@@ -1,0 +1,85 @@
+body{
+    background:linear-gradient(greenyellow,white);
+    height: 100vh;
+}
+
+.panel{
+    width: 55%;
+    height: 77%;
+    background:linear-gradient(white,blue);
+    position: absolute;
+    top:0%;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: auto;
+    border-radius: 50px;
+   
+}
+.leftPanel{
+width:50%;
+height: 100%;
+float: left;
+text-align:center;
+padding-top :100px;
+}
+.rightPanel{
+    width:50%;
+    height: 100%;
+    float: right;
+    text-align:center;
+     padding-top :100px;
+    /*paddng;230px 0 0 0;*/
+
+
+
+
+
+}
+input{
+    margin-top: 25px;
+    border-radius:5px;
+    padding: 8px;
+    width: 80%;
+    border:1px  solid lightgray;
+
+}
+button{
+    margin-top: 25px;
+    border-radius:5px;
+    padding: 8px 50px;
+    background:green;
+    color: yellow;
+    border: 1px solid orange;
+}
+/*h1{
+    color: orange;
+}*/
+.heading{
+    color: orange;
+}
+/*to work with the minimized screen*/
+@media only screen and (max-width : 500px){
+    body{
+        background:red;
+    }
+    .panel{
+        width:90%;
+        height:90%;
+    }
+    .leftPanel{
+        float:none;
+        width:100%;
+        height:auto;
+        padding: 40px  0 0 0;
+    }
+    .rightPanel{
+        float:none;
+        width:100%;
+        height:auto;
+        padding: 40px 0 0 0;
+    }
+    .images{
+        width:20%;
+    }
+}
